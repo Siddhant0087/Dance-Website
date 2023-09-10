@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ignite Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+              img(src="../static/Logo.png", alt="https://png2.cleanpng.com/sh/442edafa6affd29eb688b3c928749b07/L0KzQYm3VsE3N6JtjpH0aYP2gLBuTgNqdJl0jdd9dHWwdLL1gBUuaaN5Rd9yY3jocb20ivFkc6R0hp8AYkK4c4W9VcVja2g5TZC7MEa1RIe3UME2Omo3SKMCNkW2R4aCTwBvbz==/kisspng-silhouette-dance-art-micheal-jackson-5b25c4655bc745.2062460015292017653759.png")
+              | IDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+    
+    section#introsection 
+        div Welcome To Ignite Dance Academy  
+        div#small Ignite Your Dancing Flame!!
+    
+    section#missionsection 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src="../static/Logo1.png", alt="https://banner2.cleanpng.com/20180202/xow/kisspng-moonwalk-dance-silhouette-michael-jackson-dancing-silhouette-material-5a741c7a780892.0595575615175589064917.jpg")
+
+            div.card-content
+              p This is the best dance academy of universe ever
+        div.card 
+          h3 Dance The Way You Like
+          div.card-box
+            div.card-img
+              img(src="../static/Logo2.png", alt="https://w7.pngwing.com/pngs/551/592/png-transparent-hip-hop-dance-hip-hop-music-street-dance-modern-logo-animals-hand-fictional-character-thumbnail.png")
+
+            div.card-content
+              p This is the best dance academy of universe ever
+        div.card 
+          h3 Expert Teaching
+          div.card-box
+            div.card-img
+              img(src="../static/Logo3.png", alt="https://w7.pngwing.com/pngs/266/649/png-transparent-nyc-break-logo-hip-hop-music-hip-hop-dance-breakdancing-b-boy-material-tshirt-template-ink-thumbnail.png")
+
+            div.card-content
+              p This is the best dance academy of universe ever
+        
+        
+    section#sponsorsection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src="../static/LOGO IMG/google.png", alt="Sorry Can't Load" class="spImage")
+          img(src="../static/LOGO IMG/microsoft.png", alt="Sorry Can't Load" class="spImage")
+          img(src="../static/LOGO IMG/pinterest.png", alt="Sorry Can't Load" class="spImage")
+          img(src="../static/LOGO IMG/Youtube.png", alt="Sorry Can't Load" class="spImage")
+          img(src="../static/LOGO IMG/instagram.png", alt="Sorry Can't Load" class="spImage") 
+
+    footer#footer 
+        | Copyright © 2023 Ignite Dance Academy.com | All Rights Reserved
+    script
+      include ../static/index.js

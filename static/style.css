@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit:wght@600&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit:wght@600&family=Pangolin&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:wght@500&family=Kanit:wght@600&family=Pangolin&family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#logo{
+    display: flex;
+    color:#3b00a4;
+    margin-right: 20%;
+    font-size: 22px;
+}
+
+#logo img{
+    height: 34px;
+}
+#navbar{
+    background-color: #878787;
+    padding: 13px 14px;
+    font-family: 'Kanit', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 35px;
+    font-size: 1.4rem;
+    color: #3b00a4;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+#missionsection{
+    height: 355px;
+    margin: auto;
+    width: 70%;
+}
+
+
+#missionsection h2{
+    text-align: center;
+    padding: 24px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.85rem;;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 11px;
+    margin: 3px 17px;
+    width: 30%;
+    height: 70%;
+}
+
+.card h3{
+    text-align: center;
+    margin: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 160px;
+    padding: 0px 10px;
+}
+
+
+.card-content{
+    padding: 0px 2px;
+}
+
+.card-content p{
+    font-size: 1.1rem;
+}
+
+
+.card-img img{
+    height: inherit;
+}
+
+#introsection{
+    background: center/cover no-repeat url("https://images.unsplash.com/photo-1511715282680-fbf93a50e721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    height: 425px;
+    background-color: red;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 2.5rem;
+}
+
+
+#small{
+    font-size: 1.5rem;
+}
+
+#introsection div{
+    margin: 25px;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: #ffff002b;
+}
+
+#sponsorsection h2{
+    text-align: center;
+    padding: 24px;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.85rem;
+}
+
+#sponsors{
+    height: 130px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: 'Pangolin', cursive;
+}
